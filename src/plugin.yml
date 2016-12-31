@@ -1,0 +1,8 @@
+name: YANPCLib
+main: com.gmail.lynx7478.yanpclib.YANPCLib
+version: Pre-1.0
+author: SKA4
+description: Yet Another NPC Library. Lightweight and simple.
+commands:
+  npc:
+    description: Test command. Spawns an NPC.
