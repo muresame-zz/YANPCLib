@@ -1,5 +1,5 @@
 name: YANPCLib
-main: com.gmail.lynx7478.yanpclib.YANPCLib
+main: com.gmail.lynx7478.yanpclib.test.YANPCLib
 version: Pre-1.0
 author: SKA4
 description: Yet Another NPC Library. Lightweight and simple.

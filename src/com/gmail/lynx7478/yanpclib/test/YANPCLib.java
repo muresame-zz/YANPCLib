@@ -1,4 +1,4 @@
-package com.gmail.lynx7478.yanpclib;
+package com.gmail.lynx7478.yanpclib.test;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
