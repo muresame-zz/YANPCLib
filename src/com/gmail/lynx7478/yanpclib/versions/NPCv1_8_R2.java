@@ -16,6 +16,7 @@ import org.bukkit.Location;
 import org.bukkit.craftbukkit.v1_8_R2.CraftServer;
 import org.bukkit.craftbukkit.v1_8_R2.CraftWorld;
 import org.bukkit.craftbukkit.v1_8_R2.entity.CraftPlayer;
+import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
 import com.gmail.lynx7478.yanpclib.YANPCHandler;
@@ -33,9 +34,9 @@ public class NPCv1_8_R2 implements YANPCHandler {
     	// Any ideas?
     }
 
-    public EntityPlayer getEntity()
+    public Entity getEntity()
     {
-        return entity;
+    	return entity.getBukkitEntity();
     }
 
 	@Override
