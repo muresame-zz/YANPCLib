@@ -1,8 +1,7 @@
 package com.gmail.lynx7478.yanpclib;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Location;
-
-import com.gmail.lynx7478.yanpclib.utils.VersionUtils;
 
 
 public class YANPC {
@@ -38,4 +37,13 @@ public class YANPC {
 	}
 	
 	
+}
+
+class VersionUtils
+{
+    public static String getVersion()
+    {
+        String packageName = Bukkit.getServer().getClass().getPackage().getName();
+        return packageName.substring(packageName.lastIndexOf(".") + 1);
+    }
 }
